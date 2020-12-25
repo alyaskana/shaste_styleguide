@@ -146,6 +146,10 @@ img {
   margin-right: 20px;
 }
 
+.columns .wide-column {
+  flex: 8;
+}
+
 .columns div:last-of-type {
   margin-right: 0px;
 }
