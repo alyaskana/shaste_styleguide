@@ -10,32 +10,33 @@
 
 <body>
   <header>
-    <img class="header_logo" src="img/logo.svg" alt="">
+    <div class="header_content">
+      <img class="header_logo" src="img/logo.svg" alt="">
+    </div>
   </header>
+
   <div class="wrapper">
     <div class="menu">
-      <ul>
-        <li>Логотип и знак</li>
-        <ul>
-          <li>Общие сведения</li>
-          <li>Построение</li>
-          <li>Охранная зона</li>
-          <li>Правила использования знака</li>
-          <li>Цвет и масштаб</li>
-          <li>Размещение</li>
-          <li>Партнеры</li>
-          <li>Иконки</li>
-          <li>Построение иконки</li>
-          <li>Ошибки использования</li>
-        </ul>
-        <li>Цвета</li>
-        <ul>
-          <li>Основные</li>
-          <li>Градиенты</li>
-          <li>Пропорции</li>
-        </ul>
-        <li>Композиция</li>
-      </ul>
+      <a>Логотип и знак</a>
+      <div class="sub_menu">
+        <a>Общие сведения</a>
+        <a>Построение</a>
+        <a>Охранная зона</a>
+        <a>Правила использования знака</a>
+        <a>Цвет и масштаб</a>
+        <a>Размещение</a>
+        <a>Партнеры</a>
+        <a>Иконки</a>
+        <a>Построение иконки</a>
+        <a>Ошибки использования</a>
+      </div>
+      <a>Цвета</a>
+      <div class="sub_menu">
+        <a>Основные</a>
+        <a>Градиенты</a>
+        <a>Пропорции</a>
+      </div>
+      <a>Композиция</a>
     </div>
     <main>
       <h1>Логотип и&nbsp;знак</h1>
@@ -47,7 +48,9 @@
         узнаваемым во&nbsp;всех размерах и&nbsp;во&nbsp;всех контекстах.
       </p>
       <h3>Логотип</h3>
-      <img src="img/logo_big.svg">
+      <div class="img_wrapper">
+        <img src="img/logo_big.svg">
+      </div>
 
       <h2>Построение</h2>
       <p>
@@ -55,13 +58,13 @@
         и&nbsp;в&nbsp;совокупности иллюстрирует экспериметальный характер бренда. Толщины спроектированы так, чтобы даже
         при уменьшенном масштабе название бренда могло считываться.
       </p>
-      <img src="img/construction.png">
+      <img src="img/construction.svg">
 
       <h2>Охранная зона</h2>
       <p>
         Охранная зона вокруг логотипа равна высоте рукописного элемента &laquo;е&raquo;.
       </p>
-      <img src="img/clear_zone.png" alt="">
+      <img src="img/clear_zone.svg" alt="">
 
       <h2>Правила использования знака</h2>
       <p>
@@ -69,37 +72,40 @@
         не&nbsp;выдерживает маленький масштаб. Однако также может использоваться в&nbsp;некоторых композиционных
         решениях.
       </p>
+
       <h3>Знак</h3>
-      <img src="img/sign.png" alt="">
+      <div class="img_wrapper">
+        <img src="img/sign.svg" alt="">
+      </div>
 
       <h2>Цвет и&nbsp;масштаб</h2>
       <p>
         Логотип и&nbsp;знак должны быть белыми на&nbsp;темном фоне и&nbsp;черными на&nbsp;светлом фоне.
       </p>
-      <div class="two_columns">
-        <img src="img/logo_on_light_bg.png" alt="">
-        <img src="img/logo_on_black_bg.png" alt="">
+      <div class="columns">
+        <div><img src="img/logo_on_light_bg.svg" alt=""></div>
+        <div><img src="img/logo_on_black_bg.svg" alt=""></div>
       </div>
       <h3>Масштаб</h3>
       <p>
         Наш логотип предназначен для масштабирования до&nbsp;небольших размеров при печати и&nbsp;на&nbsp;экране.
         Наименьший размер: 70px в&nbsp;ширину&nbsp;/ 3&nbsp;см в&nbsp;ширину.
       </p>
-      <img src="img/logo_scale.png" alt="">
+      <img src="img/logo_scale.svg" alt="">
 
       <h2>Размещение</h2>
       <p>
         Размещение логотипа и&nbsp;знака зависит от&nbsp;типа коммуникации и&nbsp;использования.
       </p>
-      <div class="two_columns">
+      <div class="columns">
         <div>
-          <img src="img/placing_1.png" alt="">
+          <img src="img/elements-2.png" alt="">
           <p class="script">
             Обычная коммуникация, состоящая из&nbsp;текста. Следует размещать знак&nbsp;&mdash; слева внизу композиции.
           </p>
         </div>
         <div>
-          <img src="img/placing_2.png" alt="">
+          <img src="img/elements-3.png" alt="">
           <p class="script">
             Симметричные композиции с&nbsp;медиаконтеном. В&nbsp;зависимости от&nbsp;контента логотип может
             располагаться либо к&nbsp;югу от&nbsp;вставки, либо к&nbsp;северу в&nbsp;композиции.
@@ -113,18 +119,18 @@
         логотипа не&nbsp;должна превышать апострофа нашего логотипа. Разделительную линию между логотипами можно создать
         с&nbsp;помощью глифа &laquo;е&raquo; того&nbsp;же размера, что и&nbsp;в&nbsp;логотипе.
       </p>
-      <img src="img/clear_zone_patnership.png" alt="">
+      <img src="img/clear_zone_patnership.svg" alt="">
 
       <h2>Иконки</h2>
       <p>
         Иконки приложений разрабатываются индивидуально. Они являются исключением из&nbsp;правил использования
         свободного пространства и&nbsp;имеют оптический размер, чтобы наилучшим образом соответствовать каждой форме.
       </p>
-      <div class="four_columns">
-        <img src="img/icons.png" alt="">
-        <img src="img/icons-1.png" alt="">
-        <img src="img/icons-2.png" alt="">
-        <img src="img/icons-3.png" alt="">
+      <div class="columns">
+        <div><img src="img/icons.svg" alt=""></div>
+        <div><img src="img/icons-1.svg" alt=""></div>
+        <div><img src="img/icons-2.svg" alt=""></div>
+        <div><img src="img/icons-3.svg" alt=""></div>
       </div>
 
       <h2>Построение иконки</h2>
@@ -132,13 +138,13 @@
         Разделите область на&nbsp;5&nbsp;равных колонок. Поставьте фирменный знак в&nbsp;ширину 3-х колонок
         и&nbsp;выровняйте центрально по&nbsp;вертикали и&nbsp;по&nbsp;горизонтали.
       </p>
-      <img src="img/icon_construction.png" alt="">
+      <img src="img/icon_construction.svg" alt="">
 
       <h2>Ошибки использования</h2>
-      <div class="two_columns_wide">
+      <div class="columns wide">
         <div>
-          <img src="img/red-close-button.svg" alt="">
-          <img src="img/wrong-use-color.png" alt="">
+          <div class="red_close_img"><img src="img/red-close-button.svg" alt=""></div>
+          <div><img src="img/wrong-use-color.svg" alt=""></div>
           <p class="script">
             Ограничение использования только черным или белым дает нам самый высокий коэффициент контрастности, облегчая
             доступность.
@@ -146,23 +152,24 @@
         </div>
 
         <div>
-          <img src="img/red-close-button.svg" alt="">
-          <img src="img/wrong-use-sign.png" alt="">
+          <div class="red_close_img"><img src="img/red-close-button.svg" alt=""></div>
+          <div><img src="img/wrong-use-sign.svg" alt=""></div>
           <p class="script">
             Не&nbsp;используйте логотип вместе со&nbsp;знаками, которые можно принять за&nbsp;логотипы.
           </p>
         </div>
-
+      </div>
+      <div class="columns wide">
         <div>
-          <img src="img/red-close-button.svg" alt="">
-          <img src="img/wrong-use-shear.png" alt="">
+          <div class="red_close_img"><img src="img/red-close-button.svg" alt=""></div>
+          <div><img src="img/wrong-use-shear.svg" alt=""></div>
           <p class="script">
             Не&nbsp;растягивайте и&nbsp;не&nbsp;изменяйте логотип.
           </p>
         </div>
         <div>
-          <img src="img/red-close-button.svg" alt="">
-          <img src="img/wrong-use-vertical.png" alt="">
+          <div class="red_close_img"><img src="img/red-close-button.svg" alt=""></div>
+          <div><img src="img/wrong-use-vertical.svg" alt=""></div>
           <p class="script">
             Не&nbsp;переворачиваете логотип и&nbsp;не&nbsp;ставьте логотип вертикально.
           </p>
@@ -176,15 +183,15 @@
         Наши основные фирменные цвета&nbsp;&mdash; белый и&nbsp;черный. Они используются для обеспечения доступности,
         простоты и&nbsp;последовательности во&nbsp;всех коммуникациях бренда.
       </p>
-      <div class="two_columns">
+      <div class="columns">
         <div>
           <p class="colors">
             Белый
           </p>
           <img src="img/white.png" alt="">
           <p class="script">
-            RGB — 255 255 255
-            CMYK — 0 0 0 0
+            RGB — 255 255 255<br>
+            CMYK — 0 0 0 0<br>
             HEX — FFFFFF
           </p>
         </div>
@@ -194,8 +201,8 @@
           </p>
           <img src="img/black.png" alt="">
           <p class="script">
-            RGB — 16 16 16
-            CMYK — 0 0 0 94
+            RGB — 16 16 16<br>
+            CMYK — 0 0 0 94<br>
             HEX — 101010
           </p>
         </div>
@@ -206,30 +213,30 @@
         Наши градиенты вытекают из&nbsp;цветов разных коктейлей. Их&nbsp;следует экономно использовать
         в&nbsp;иллюстрациях, фотографиях и&nbsp;продуктах, чтобы сохранить смысл и&nbsp;действенность.
       </p>
-      <div class="five_columns">
+      <div class="columns wide">
         <div>
-          <img src="img/fruit-orange-cocktail.png" alt="">
-          <img src="img/fruit-orange.png" alt="">
+          <div><img src="img/fruit-orange-cocktail.png" alt=""></div>
+          <div><img class="vertical_gradient" src="img/fruit-orange.svg" alt=""></div>
           <p class="gradient_names">Fruit Orange</p>
         </div>
         <div>
-          <img src="img/blue-sea-cocktail.png" alt="">
-          <img src="img/blue-sea.png" alt="">
+          <div><img src="img/blue-sea-cocktail.png" alt=""></div>
+          <div><img class="vertical_gradient" src="img/blue-sea.svg" alt=""></div>
           <p class="gradient_names">Blue Sea</p>
         </div>
         <div>
-          <img src="img/violet-cocktail.png" alt="">
-          <img src="img/violet-beach.png" alt="">
+          <div><img src="img/violet-cocktail.png" alt=""></div>
+          <div><img class="vertical_gradient" src="img/violet-beach.svg" alt=""></div>
           <p class="gradient_names">Violet Beach</p>
         </div>
         <div>
-          <img src="img/lavanda-cocktail.png" alt="">
-          <img src="img/cold-lavanda.png" alt="">
+          <div><img src="img/ladanda-cocktail.png" alt=""></div>
+          <div><img class="vertical_gradient" src="img/cold-lavanda.svg" alt=""></div>
           <p class="gradient_names">Cold Lavanda</p>
         </div>
         <div>
-          <img src="img/kiwi-cocktail.png" alt="">
-          <img src="img/kiwi-green.png" alt="">
+          <div><img src="img/kiwi-cocktail.png" alt=""></div>
+          <div><img class="vertical_gradient" src="img/kiwi-green.svg" alt=""></div>
           <p class="gradient_names">Kiwi Green</p>
         </div>
       </div>
@@ -237,21 +244,21 @@
       <h3>Построение</h3>
       <div>
         <p class="colors">Fruit Orange</p>
-        <img src="img/fruit-orange-1.png" alt="">
-        <div class="three_columns">
-          <p class="script">
-            RGB — 255 189 91
-            CMYK — 0 26 64 1
+        <img src="img/fruit-orange-1.svg" alt="">
+        <div class="columns wide">
+          <p class="script gradient gradient">
+            RGB — 255 189 91<br>
+            CMYK — 0 26 64 1<br>
             HEX — FFBD5B
           </p>
-          <p class="script">
-            RGB — 255 144 71
-            CMYK — 0 44 72 1
+          <p class="script gradient">
+            RGB — 255 144 71<br>
+            CMYK — 0 44 72 1<br>
             HEX — FF9047
           </p>
-          <p class="script">
-            RGB — 235 72 67
-            CMYK — 0 69 71 8
+          <p class="script gradient">
+            RGB — 235 72 67<br>
+            CMYK — 0 69 71 8<br>
             HEX — EB4843
           </p>
         </div>
@@ -259,21 +266,21 @@
 
       <div>
         <p class="colors">Blue Sea</p>
-        <img src="img/blue-sea-1.png" alt="">
-        <div class="three_columns">
-          <p class="script">
-            RGB — 0 241 214
-            CMYK — 100 0 11 5
+        <img src="img/blue-sea-1.svg" alt="">
+        <div class="columns wide">
+          <p class="script gradient">
+            RGB — 0 241 214<br>
+            CMYK — 100 0 11 5<br>
             HEX — 00F1D6
           </p>
-          <p class="script">
-            RGB — 81 208 225
-            CMYK — 64 8 0 12
+          <p class="script gradient">
+            RGB — 81 208 225<br>
+            CMYK — 64 8 0 12<br>
             HEX — 51D0E1
           </p>
-          <p class="script">
-            RGB — 0 157 244
-            CMYK — 100 36 0 4
+          <p class="script gradient">
+            RGB — 0 157 244<br>
+            CMYK — 100 36 0 4<br>
             HEX — 009DF4
           </p>
         </div>
@@ -281,21 +288,21 @@
 
       <div>
         <p class="colors">Violet Beach</p>
-        <img src="img/violet-beach-1.png" alt="">
-        <div class="three_columns">
-          <p class="script">
-            RGB — 226 140 207
-            CMYK — 0 38 8 11
+        <img src="img/violet-beach-1.svg" alt="">
+        <div class="columns wide">
+          <p class="script gradient">
+            RGB — 226 140 207<br>
+            CMYK — 0 38 8 11<br>
             HEX — E28CCF
           </p>
-          <p class="script">
-            RGB — 255 173 173
-            CMYK — 0 32 32 1
+          <p class="script gradient">
+            RGB — 255 173 173<br>
+            CMYK — 0 32 32 1<br>
             HEX — FFADAD
           </p>
-          <p class="script">
-            RGB — 255 210 80
-            CMYK — 0 18 69 1
+          <p class="script gradient">
+            RGB — 255 210 80<br>
+            CMYK — 0 18 69 1<br>
             HEX — FFD250
           </p>
         </div>
@@ -303,21 +310,21 @@
 
       <div>
         <p class="colors">Cold Lavanda</p>
-        <img src="img/cold-lavanda-1.png" alt="">
-        <div class="three_columns">
-          <p class="script">
-            RGB — 255 171 236
-            CMYK — 0 33 7 1
+        <img src="img/cold-lavanda-1.svg" alt="">
+        <div class="columns wide">
+          <p class="script gradient">
+            RGB — 255 171 236<br>
+            CMYK — 0 33 7 1<br>
             HEX — FFABEC
           </p>
-          <p class="script">
-            RGB — 219 173 255
-            CMYK — 14 32 0 1
+          <p class="script gradient">
+            RGB — 219 173 255<br>
+            CMYK — 14 32 0 1<br>
             HEX — DBADFF
           </p>
-          <p class="script">
-            RGB — 151 195 255
-            CMYK — 41 24 0 1
+          <p class="script gradient">
+            RGB — 151 195 255<br>
+            CMYK — 41 24 0 1<br>
             HEX — 97C3FF
           </p>
         </div>
@@ -325,21 +332,21 @@
 
       <div>
         <p class="colors">Kiwi Green</p>
-        <img src="img/kiwi-green-1.png" alt="">
-        <div class="three_columns">
-          <p class="script">
-            RGB — 116 222 255
-            CMYK — 55 13 0 1
+        <img src="img/kiwi-green-1.svg" alt="">
+        <div class="columns wide">
+          <p class="script gradient">
+            RGB — 116 222 255<br>
+            CMYK — 55 13 0 1<br>
             HEX — 74DEFF
           </p>
-          <p class="script">
-            RGB — 118 252 187
-            CMYK — 53 26 0 1
+          <p class="script gradient">
+            RGB — 118 252 187<br>
+            CMYK — 53 26 0 1<br>
             HEX — 76FCBB
           </p>
-          <p class="script">
-            RGB — 159 255 83
-            CMYK — 38 67 0 1
+          <p class="script gradient">
+            RGB — 159 255 83<br>
+            CMYK — 38 67 0 1<br>
             HEX — 9FFF53
           </p>
         </div>
@@ -353,14 +360,14 @@
         используются для иллюстраций и&nbsp;внутри продукта в&nbsp;зависимости от&nbsp;медиаконтента.
       </p>
       <p class="colors">Основные цвета</p>
-      <img src="img/proportions-main-colors.png" alt="">
-      <p class="colors">Градиенты</p>
-      <div class="five_columns">
-        <img src="img/fruit-orange-2.png" alt="">
-        <img src="img/blue-sea-2.png" alt="">
-        <img src="img/violet-beach-2.png" alt="">
-        <img src="img/cold-lavanda-2.png" alt="">
-        <img src="img/kiwi-green-2.png" alt="">
+      <div class="wide"><img src="img/proportions-main-colors.svg" alt=""></div>
+      <p class="colors proportions_gradients_text">Градиенты</p>
+      <div class="columns wide">
+        <img src="img/fruit-orange-2.svg" alt="">
+        <img src="img/blue-sea-2.svg" alt="">
+        <img src="img/violet-beach-2.svg" alt="">
+        <img src="img/cold-lavanda-2.svg" alt="">
+        <img src="img/kiwi-green-2.svg" alt="">
       </div>
 
       <h1>Композиция</h1>
@@ -371,7 +378,7 @@
       </p>
 
       <h3>Элементы</h3>
-      <div class="three_columns">
+      <div class="columns wide">
         <div>
           <p class="colors">Руководство по сетке</p>
           <img src="img/elements-1.png" alt="">
@@ -386,9 +393,8 @@
         </div>
       </div>
 
-      <h2>
-        Настройка сетки
-      </h2>
+      <h2>Настройка сетки</h2>
+      <h3>Разбивка столбцов</h3>
 
     </main>
   </div>

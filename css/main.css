@@ -1,2 +1,160 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter';
+}
+
+header {
+  height: 150px;
+  padding: 0 40px;
+}
+
+.header_content {
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+}
+
+.menu {
+  flex: 1;
+  margin: 0 20px 0 0;
+
+}
+
+.menu a {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.menu>a {
+  font-weight: 700;
+}
+
+.sub_menu {
+  margin-left: 30px;
+}
+
+.sub_menu>a {
+  color: rgba(16, 16, 16, 0.5);
+}
+
+.sub_menu>a:hover {
+  color: rgba(16, 16, 16, 1);
+}
+
+main {
+  flex: 3;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 75px;
+  margin-bottom: 60px;
+  color: #101010;
+  margin-top: 150px;
+}
+
+h1:first-of-type {
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 150px 0 30px 0;
+  color: #101010;
+}
+
+h1+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #101010;
+  margin: 60px 0 30px 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: #101010;
+}
+
+p.script {
+  color: #101010;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+p.script.gradient {
+  width: 170px;
+}
+
+p.colors {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+p.gradient_names {
+  font-size: 13px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img_wrapper {
+  max-width: 740px;
+  display: flex;
+  justify-content: center;
+}
+
+.columns {
+  max-width: 740px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns>div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.columns div:last-of-type {
+  margin-right: 0px;
+}
+
+.wide {
+  max-width: 835px;
+}
+
+.red_close_img {
+  margin-bottom: 10px;
+}
+
+.vertical_gradient {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.proportions_gradients_text {
+  margin-top: 30px;
+}
