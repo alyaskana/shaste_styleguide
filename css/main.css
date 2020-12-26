@@ -10,12 +10,34 @@ header {
   padding: 0 40px;
 }
 
+footer {
+  height: 100px;
+  padding: 0 40px;
+}
+
 .header_content {
   max-width: 1120px;
   margin: 0 auto;
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.header_logo {
+  max-width: 170px;
+}
+
+.footer_content {
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  max-height: 40px;
 }
 
 .wrapper {
@@ -27,7 +49,7 @@ header {
 
 .top-arrow {
   position: fixed;
-  bottom: 40px;
+  bottom: 25px;
   width: 45px;
   /* display: none; */
 }
@@ -148,6 +170,7 @@ img {
 
 .columns .wide-column {
   flex: 8;
+  max-width: 100%;
 }
 
 .columns div:last-of-type {
@@ -156,6 +179,10 @@ img {
 
 .wide {
   max-width: 835px;
+}
+
+.wide>div {
+  max-width: 360px;
 }
 
 .red_close_img {
